@@ -1,0 +1,27 @@
+<!-- layout/tela_home.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo ao App de Avaliação de Empresas"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnListaEmpresas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Lista de Empresas" />
+
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meu Perfil" />
+</LinearLayout>
